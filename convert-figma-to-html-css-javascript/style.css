@@ -10,20 +10,20 @@
 nav {
     background: #D9D9D9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    height: 108px;
+    height: 90px;
     position: relative;
   }
   .wrapper
   {
     margin-left: 120px;
     margin-right: 120px;
-    height: 108px;
+    height: 90px;
 
 
   }
   .nav_flex
   {
-    height: 108px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,4 +57,83 @@ margin-right: 100px;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+  }
+  .cont_main
+  {
+background-color:#021718 ;
+height: 500px;
+  }
+.cont_main
+{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.img
+{
+    width: 280px;
+    height: 330px;
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title
+{
+    font-weight: 700;
+    font-size: 70px;
+    color: #D9D9D9;
+    margin-bottom: 24px;
+}
+.desc
+{
+font-weight: 30px;
+font-size: 30px;
+color: #D9D9D9;
+margin-bottom: 48px;
+}
+.button
+{
+width: 160px;
+height: 50px;
+background: #01847F;
+border-radius: 8px;
+padding: 12px 20px;
+transition: 300ms;
+}
+.a
+{
+    color: #D9D9D9;
+    font-size: 24px;
+    text-decoration: none;
+}
+.button:hover
+{
+    transform: translateY(-8px);
+}
+.photo
+{
+    position: relative;
+  }
+  
+ .img 
+ {
+    transition: 300ms;
+    position: relative;
+    z-index: 100;
+  }
+  .img:hover {
+    transform: rotate(-6deg);
+  }
+  .bg 
+  {
+    position: absolute;
+    width: 280px;
+    height: 330px;
+    top: 1px;
+    background: #44a1a0;
+    transform: rotate(-6deg);
   }
